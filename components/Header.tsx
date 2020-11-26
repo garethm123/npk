@@ -1,8 +1,8 @@
 import React, {useEffect, useState, useRef} from 'react'
 import styles from "./component.module.scss";
-import openMenuIcon from '../images/hamburger.svg'
-import closeMenuIcon from '../images/close-rounded-white-18dp.svg'
-import logo from '../images/logoOCD-01.svg'
+import openMenuIcon from '../public/images/hamburger.svg'
+import closeMenuIcon from '../public/images/close-rounded-white-18dp.svg'
+import logo from '../public/images/logoOCD-01.svg'
 import Link from 'next/link'
 import {motion} from 'framer-motion'
 import Nav from './Nav'
