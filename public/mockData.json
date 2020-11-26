@@ -1,0 +1,26 @@
+[
+  {
+  "url": "/home",
+  "label": "Home"
+  },
+  {
+  "url": "/products",
+  "label": "Products"
+  },
+  {
+  "url": "/sample",
+  "label": "Order a Sample"
+  },
+  {
+  "url": "/applications",
+  "label": "Applications"
+  },
+  {
+  "url": "/retailers",
+  "label": "Find a Retailer"
+  },
+  {
+  "url": "/distributors",
+  "label": "Distributors"
+  }
+]

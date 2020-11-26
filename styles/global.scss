@@ -1,0 +1,14 @@
+html,
+body {
+  // Reset CSS
+  margin: 0;
+  padding: 0;
+  color: #000;
+
+  // Set font family
+  font-family: 'Montserrat', sans-serif;
+
+  * {
+    box-sizing: border-box;
+  }
+}
