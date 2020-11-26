@@ -63,7 +63,7 @@ const Header = () => {
         <motion.img 
           variants={menutBtnVars}
           animate={menuOpen ? "open" : "close"}
-          src="../public/images/close-rounded-white-18dp.svg"
+          src="/images/close-rounded-white-18dp.svg"
           onClick={handleMenu} 
           className={styles.hamburger}
           aria-label="Navigation toggle"
@@ -72,7 +72,7 @@ const Header = () => {
         <motion.img 
           variants={menutBtnVars}
           animate={menuOpen ? "open" : "close"}
-          src="../public/images/hamburger.svg" 
+          src="/images/hamburger.svg" 
           onClick={handleMenu} 
           className={styles.hamburger}
           aria-label="Navigation toggle"
@@ -82,7 +82,7 @@ const Header = () => {
       <Link href="/">
         <a>
           <img 
-            src="'../public/images/logoOCD-01.svg'" 
+            src="'/images/logoOCD-01.svg'" 
             className={styles.logo} 
             alt="OCD Logo"
           />
