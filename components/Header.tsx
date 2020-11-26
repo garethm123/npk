@@ -82,14 +82,14 @@ const Header = () => {
       }
       <Link href="/">
         <a>
-          <Image 
+          <img 
             src="/images/logoOCD.svg" 
             className={styles.logo} 
             alt="OCD Logo"
             aria-label="Home"
             height="32"
             width="32"
-          ></Image>
+          />
         </a>
       </Link>
     </div>
