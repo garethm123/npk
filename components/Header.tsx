@@ -6,6 +6,7 @@ import styles from "./component.module.scss";
 import Link from 'next/link'
 import {motion} from 'framer-motion'
 import Nav from './Nav'
+import Image from 'next/image'
 
 const Header = () => {
 
@@ -78,20 +79,17 @@ const Header = () => {
           aria-label="Navigation toggle"
           aria-expanded="true"
         />
-      }<img 
-      src="/images/logoOCD.svg" 
-      className={styles.logo} 
-      alt="OCD Logo"
-      aria-label="Home"
-    />
+      }
       <Link href="/">
         <a>
-          <img 
+          <Image 
             src="/images/logoOCD.svg" 
             className={styles.logo} 
             alt="OCD Logo"
             aria-label="Home"
-          />
+            height="32"
+            width="32"
+          ></Image>
         </a>
       </Link>
     </div>
