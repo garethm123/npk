@@ -1,4 +1,4 @@
-import Layout from "../layout/layout";
+import Layout from "../components/layout/layout";
 // We would like to see how transfer design into functional code
 // We have set up the project in NextJS, using framer-motion for animation and scss modules for styling.
 // We have used functional components throughout and implemented TypeScript where applicable. Please continue these patters if you are able.
