@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import styles from "./component.module.scss";
+import styles from "./header.module.scss";
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Nav from './Nav'

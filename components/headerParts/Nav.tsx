@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import styles from "./component.module.scss";
+import styles from "./header.module.scss";
 import Link from 'next/link'
 
 const Nav = () => {
