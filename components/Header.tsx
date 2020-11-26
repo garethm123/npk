@@ -82,7 +82,7 @@ const Header = () => {
       <Link href="/">
         <a>
           <img 
-            src="'/images/logoOCD-01.svg'" 
+            src="/images/logoOCD-01.svg" 
             className={styles.logo} 
             alt="OCD Logo"
           />
