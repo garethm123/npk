@@ -78,7 +78,12 @@ const Header = () => {
           aria-label="Navigation toggle"
           aria-expanded="true"
         />
-      }
+      }<img 
+      src="/images/logoOCD.svg" 
+      className={styles.logo} 
+      alt="OCD Logo"
+      aria-label="Home"
+    />
       <Link href="/">
         <a>
           <img 
