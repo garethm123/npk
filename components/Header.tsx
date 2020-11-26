@@ -1,8 +1,8 @@
 import React, {useEffect, useState, useRef} from 'react'
 import styles from "./component.module.scss";
-import openMenuIcon from '../public/images/hamburger.svg'
-import closeMenuIcon from '../public/images/close-rounded-white-18dp.svg'
-import logo from '../public/images/logoOCD-01.svg'
+// import openMenuIcon from '../public/images/hamburger.svg'
+// import closeMenuIcon from '../public/images/close-rounded-white-18dp.svg'
+// import logo from '../public/images/logoOCD-01.svg'
 import Link from 'next/link'
 import {motion} from 'framer-motion'
 import Nav from './Nav'
@@ -63,7 +63,7 @@ const Header = () => {
         <motion.img 
           variants={menutBtnVars}
           animate={menuOpen ? "open" : "close"}
-          src={closeMenuIcon} 
+          src="../public/images/close-rounded-white-18dp.svg"
           onClick={handleMenu} 
           className={styles.hamburger}
           aria-label="Navigation toggle"
@@ -72,7 +72,7 @@ const Header = () => {
         <motion.img 
           variants={menutBtnVars}
           animate={menuOpen ? "open" : "close"}
-          src={openMenuIcon} 
+          src="../public/images/hamburger.svg" 
           onClick={handleMenu} 
           className={styles.hamburger}
           aria-label="Navigation toggle"
@@ -82,7 +82,7 @@ const Header = () => {
       <Link href="/">
         <a>
           <img 
-            src={logo} 
+            src="'../public/images/logoOCD-01.svg'" 
             className={styles.logo} 
             alt="OCD Logo"
           />
